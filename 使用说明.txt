@@ -1,0 +1,4 @@
+java -Dfile.encoding=UTF-8 -jar tlbimp.jar -o 路径 -p 包名 组件路径
+
+
+注意：先要注册组件，最好是将组件放入到system32或者64里
