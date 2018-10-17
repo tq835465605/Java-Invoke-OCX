@@ -8,12 +8,12 @@
 注意：先要注册组件，最好是将组件放入到system32或者64里
 
 通过上面的代码会自动生成ocx组件里的方法与事件，结构如下：
--tdm
-   +--events
-   ---+__CTISrv
-   +--CTISrv__v2
-   +--eeUerType
-   +--ClassFactory
+     -tdm
+         +--events
+            ---+__CTISrv
+         +--CTISrv__v2
+         +--eeUerType
+         +--ClassFactory
 
 
 如何调用：
